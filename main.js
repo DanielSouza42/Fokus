@@ -53,7 +53,7 @@ function alterarContexto (contexto) {
 }
 
 focoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 5;
+    tempoDecorridoEmSegundos = 1500;
     alterarContexto('foco');
     focoBt.classList.add('active');
     
